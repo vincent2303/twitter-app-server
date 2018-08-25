@@ -58,6 +58,8 @@ let tweetStream = function(io, searchTerm){
   });
 }
 
+let a = 3333333;
+
 io.on('connection', function(socket){
   console.log("a user connect")
   socket.on("pauseRequest", ()=>{
